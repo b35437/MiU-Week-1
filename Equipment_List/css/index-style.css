@@ -1,0 +1,89 @@
+/*
+//Name: Nathan Byarley
+//Project: MiU Week 1
+//Term: 1307
+*/
+
+html {
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#link-pos h3 {
+	text-align:left;
+}
+
+#link-pos p {
+	text-align: left;
+}
+
+h1 {
+
+	font-family: fantasy;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-shadow: 0px 0px 5px #f7da63;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	clear:both;
+
+}
+
+p {
+	font-family: sans-serif;
+	margin-top: 0px;
+	text-align: center;
+	
+}
+
+a:link {
+	color: #a93636;
+	text-align: center;
+}
+
+a:visited {
+	color: #337609;
+}
+
+
+
+#top-image {
+	text-align: center;
+}
+
+#searchForm {
+
+}
+
+#searchForm input[type="text"] {
+    background: url(../img/search-dark.png) no-repeat 10px 6px #444;
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #777;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+
+#searchForm input[type="text"]:focus {
+    width: 240px;
+}

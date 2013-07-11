@@ -1,0 +1,7 @@
+Here is my GIT hub address
+
+master
+https://github.com/b35437/MiU-Week-1.git
+
+gh-pages
+http://b35437.github.com/MiU-Week-1

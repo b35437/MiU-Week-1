@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Name: Nathan Byarley -->
+<!-- Project: MiU Week 1 -->
+<!-- Term: 1307 -->
+
+<html>   
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Add Equipment information based on game of your choice">
+		<meta name="keywords" content="game, equipment list" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<meta name="robots" content="index, follow"/>
+		<meta name="viewport" content="user-scalable=no, width=device-width"/>
+		<meta name="HandheldFriendly" content="true"/>
+		<meta name="MobileOptimized" content="320"/>
+		<!-- DROID Viewport -->
+		<meta name="viewport" content="target-densitydpi=device-dpi" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/index-style.css">
+		<link href="css/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css">
+		
+		<!--Title-->
+		<title>Add Equipment Form</title>
+	</head>
+	<!-- Body -->
+	<body>
+    	<!-- starting JQuery page with form and content -->
+   		<div data-role="page" data-theme="a">
+        <!-- page Header -->
+    		<div data-position="fixed" data-role="header">
+    		<h1>Equipment List</h1>
+    	</div>
+    	<!-- feature image with link for additem page -->
+     	<div id="top-image">
+    		<a href="additem.html" data-ajax="false"><img src="img/feature.png" alt="Equipment List"></a>
+        </div>
+        <!-- start content section within the JQuery Page -->
+    	<div data-role="content" >
+        	<form method="get" action="/search" id="searchForm">
+  				<input name="search" type="text" size="40" placeholder="Search..." />
+	    	</form>	
+   	  		<ul data-inset="true" data-role="listview" id="link-pos">
+      			<li data-role="list-divider">Browse Equipment By...</li>
+      
+      			<!-- first browse link -->
+   	    		<li><a href="error.html" data-ajax="false">
+   	      		<h3>Equipment Name</h3>
+   	      		<p>Browse Equipment Name</p>
+ 	      		</a></li>
+                
+      			<!-- second browse link -->
+   	    		<li><a href="error.html" data-ajax="false">
+   	      		<h3>Slot</h3>
+   	      		<p>Browse Equipment Slot</p>
+ 	      		</a></li>
+          
+          		<!-- third browse Link -->
+   	    		<li><a href="error.html" data-ajax="false">
+   	      		<h3>Rarity</h3>
+   	      		<p>Browse Equipment Rarity</p>
+ 	      		</a></li>
+          
+          		<!-- fourth browse link -->
+   	    		<li><a href="error.html" data-ajax="false">
+   	      		<h3>Level</h3>
+   	      		<p>Browse Equipment Level</p>
+ 	      		</a></li>
+ 	      		
+ 	      		<!-- fifth browse link -->
+   	    		<li><a href="error.html" data-ajax="false">
+   	      		<h3>Date</h3>
+   	      		<p>Browse Date Added</p>
+ 	      		</a></li>
+      		</ul>
+   	  	</div>
+    </div>
+    
+    	<!-- JavaScript -->
+		<script  type="text/javascript" src=""></script>
+		<script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
+		<script src="js/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+	</body>
+</html>
