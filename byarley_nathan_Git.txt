@@ -4,4 +4,4 @@ master
 https://github.com/b35437/MiU-Week-1.git
 
 gh-pages
-http://b35437.github.com/MiU-Week-1
+http://b35437.github.io/MiU-Week-1/Equipment_List/
